@@ -72,7 +72,6 @@ function createShoppingCart(){
     //1. Skapa listan
     const itemList = createItemList();
     //2. Räkna ut totalen
-<<<<<<< HEAD
     const total = calculateTotal();
     const totalElement = document.createElement("p");
     totalElement.innerText = `Total cost: ${total}`;
@@ -83,7 +82,3 @@ function createShoppingCart(){
 }
 
 createShoppingCart();
-=======
-    //3. Lägg till listan och totalen i #shopping-cart
-}
->>>>>>> 72c214ed819ea6e58a4e932879ef2841e36db2e4
